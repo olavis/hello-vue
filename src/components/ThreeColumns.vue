@@ -2,7 +2,9 @@
   <v-container>
     <v-row>
       <v-col cols="12" sm="2">
-        <Palette />
+        <v-sheet rounded="lg" min-height="268">
+          <Palette />
+        </v-sheet>
       </v-col>
 
       <v-col cols="12" sm="8">
