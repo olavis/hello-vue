@@ -27,7 +27,7 @@
 <script>
 export default {
   data: () => ({
-    isPaletteActive: true,
+    isPaletteActive: false,
   }),
 };
 </script>
