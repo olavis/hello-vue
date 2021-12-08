@@ -9,7 +9,9 @@
 
       <v-col cols="12" sm="8">
         <v-sheet min-height="70vh" rounded="lg">
-          <h1 class="display-3 font-weight-medium mb-3">Stor overskrift</h1>
+          <h1 class="display-3 font-weight-medium mb-3">
+            Hello, <s>vue</s> you.
+          </h1>
           <p class="subheading font-weight-regular">Hello</p>
         </v-sheet>
       </v-col>
