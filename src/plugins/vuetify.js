@@ -15,7 +15,7 @@ export default new Vuetify({
                 success: '#4CAF50',
                 warning: '#FFC107',
             },
-            light: {
+            light: { // developers-like-coffee-theme
                 primary: '#FFF8E1',
                 secondary: '#424242',
                 accent: '#4E342E',
