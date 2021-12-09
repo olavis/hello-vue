@@ -38,6 +38,10 @@
   text-align: center;
 }
 
+#calendarItem {
+  color: #fff8e1;
+}
+
 #nav {
   padding: 30px;
   a {
