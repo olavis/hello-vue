@@ -2,9 +2,8 @@
   <v-app>
     <v-app-bar app color="info" flat>
       <v-tabs centered class="ml-n9" color="accent">
-        <v-tab to="/">Home</v-tab>
+        <v-tab to="/">Hello you</v-tab>
         <v-tab to="/about">About</v-tab>
-        <v-tab to="/calendar">Calendar</v-tab>
       </v-tabs>
     </v-app-bar>
 
