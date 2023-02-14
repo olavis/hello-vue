@@ -1,22 +1,11 @@
 <template>
   <v-app>
     <v-app-bar app color="info" flat>
-      <v-avatar
-        :color="$vuetify.breakpoint.smAndDown ? 'accent' : 'transparent'"
-        size="32"
-      ></v-avatar>
-
       <v-tabs centered class="ml-n9" color="accent">
         <v-tab to="/">Home</v-tab>
         <v-tab to="/about">About</v-tab>
         <v-tab to="/calendar">Calendar</v-tab>
       </v-tabs>
-
-      <v-avatar
-        class="hidden-sm-and-down"
-        color="accent shrink"
-        size="32"
-      ></v-avatar>
     </v-app-bar>
 
     <v-main class="grey lighten-3">

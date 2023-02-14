@@ -20,22 +20,11 @@
       /-->
     </div>
 
-    <v-avatar
-      :color="$vuetify.breakpoint.smAndDown ? 'accent' : 'transparent'"
-      size="32"
-    ></v-avatar>
-
     <v-tabs centered class="ml-n9" color="accent">
       <v-tab v-for="link in links" :key="link">
         {{ link }}
       </v-tab>
     </v-tabs>
-
-    <v-avatar
-      class="hidden-sm-and-down"
-      color="accent shrink"
-      size="32"
-    ></v-avatar>
   </v-app-bar>
 </template>
 
